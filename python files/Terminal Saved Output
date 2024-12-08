@@ -1,0 +1,616 @@
+Last login: Sat Nov 12 23:37:58 on console
+/Users/sowmyajavvadi/.zprofile:1: command not found: ^M
+(base) sowmyajavvadi@LP1-AP-51899373 ~ % python
+Python 3.9.13 (main, Aug 25 2022, 18:29:29) 
+[Clang 12.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("hello worlf")
+hello worlf
+>>> 'hello's worls'
+  File "<stdin>", line 1
+    'hello's worls'
+           ^
+SyntaxError: invalid syntax
+>>> "hello worls"
+'hello worls'
+>>> 'hello world'
+'hello world'
+>>> "hello1"
+'hello1'
+>>> 
+>>> print("hi\n you")
+hi
+ you
+>>> print("hi\nt you")
+hi
+t you
+>>> len("sowmya")
+6
+>>> Len("sowmya")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Len' is not defined
+>>> print("i am the only one here")
+i am the only one here
+>>> len("i'm the only one here")
+21
+>>> len("im the only one here")
+20
+>>> my string="Hi Sowmya"
+  File "<stdin>", line 1
+    my string="Hi Sowmya"
+       ^
+SyntaxError: invalid syntax
+>>> mystring="Hi Sowmya"
+>>> mystring
+'Hi Sowmya'
+>>> mystring[2]
+' '
+>>> mystring[1]
+'i'
+>>> mystring[-1]
+'a'
+>>> mystring
+'Hi Sowmya'
+>>> mystring[-2]
+'y'
+>>> mystring[-4]
+'w'
+>>> mystring="i'm the one here"
+>>> mystring
+"i'm the one here"
+>>> mystring[:11]
+"i'm the one"
+>>> mystring[8:11]
+'one'
+>>> mystring[4:]
+'the one here'
+>>> mystring[4:7]
+'the'
+>>> mystring[4:8]
+'the '
+>>> mystring
+"i'm the one here"
+>>> mystring[::]
+"i'm the one here"
+>>> mystring[::2]
+'imteoehr'
+>>> mystring="ABCDEFGH"
+>>> MYSTRING
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'MYSTRING' is not defined
+>>> mystring
+'ABCDEFGH'
+>>> mystring[::2]
+'ACEG'
+>>> mystring[::3]
+'ADG'
+>>> mystring[1:5:2]
+'BD'
+>>> mystring[1:5]
+'BCDE'
+>>> mystring[1:5:2]
+'BD'
+>>> mystring[::-1]
+'HGFEDCBA'
+>>> mystring("I'm the one here")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> mystring="I'm the one here";
+>>> mystring="I'm the one here"
+>>> mystring
+"I'm the one here"
+>>> mystring[2:1:-1]
+'m'
+>>> mystring[2:9:-1]
+''
+>>> mystring[-2:9:-1]
+'reh e'
+>>> name="sam"
+>>> name
+'sam'
+>>> name[0]='p'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> name="sowmya"
+>>> name
+'sowmya'
+>>> name[5]='o'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> 
+>>> 
+>>> 
+>>> name="tru"
+>>> name
+'tru'
+>>> name[1:]
+'ru'
+>>> lst_letters=name[1:]
+>>> lst_letters
+'ru'
+>>> 'B'+lst_letters
+'Bru'
+>>> 
+>>> 
+>>> name="im the only one here"
+>>> name
+'im the only one here'
+>>> middlename=name[11:15]
+>>> middlename
+' one'
+>>> "some"+middlename
+'some one'
+>>> x="hello world"
+>>> x+"it is beautiful outside"
+'hello worldit is beautiful outside'
+>>> x+" it is beautiful outside"
+'hello world it is beautiful outside'
+>>> x=x+" it is beautiful outside"
+>>> x
+'hello world it is beautiful outside'
+>>> x
+'hello world it is beautiful outside'
+>>> 
+>>> letter='z'
+>>> letter* 10
+'zzzzzzzzzz'
+>>> x=x*3
+>>> 
+>>> x=x+" it is beautiful outside"
+>>> x
+'hello world it is beautiful outsidehello world it is beautiful outsidehello world it is beautiful outside it is beautiful outside'
+>>> x=x*4
+>>> x
+'hello world it is beautiful outsidehello world it is beautiful outsidehello world it is beautiful outside it is beautiful outsidehello world it is beautiful outsidehello world it is beautiful outsidehello world it is beautiful outside it is beautiful outsidehello world it is beautiful outsidehello world it is beautiful outsidehello world it is beautiful outside it is beautiful outsidehello world it is beautiful outsidehello world it is beautiful outsidehello world it is beautiful outside it is beautiful outside'
+>>> x='2'+'3'
+>>> x
+'23'
+>>> x="hi"+"sowmya"
+>>> x
+'hisowmya'
+>>> x="hi"+" sowmya"
+>>> x
+'hi sowmya'
+>>> x="hello world"
+>>> x.split
+<built-in method split of str object at 0x7f8cbbc56ef0>
+>>> x.upper()
+'HELLO WORLD'
+>>> x.lower()
+'hello world'
+>>> x=x.upper()
+>>> x
+'HELLO WORLD'
+>>> x.split()
+['HELLO', 'WORLD']
+>>> x=hello
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hello' is not defined
+>>> x="hello"
+>>> x=x.split()
+>>> x
+['hello']
+>>> x="hi this is string"
+>>> x.split()
+['hi', 'this', 'is', 'string']
+>>> x.split('i')
+['h', ' th', 's ', 's str', 'ng']
+>>> 
+>>> print(‘This is a string{}’.format(“inserted”))
+  File "<stdin>", line 1
+    print(‘This is a string{}’.format(“inserted”))
+          ^
+SyntaxError: invalid character '‘' (U+2018)
+>>> print('This is a string{}'.format("inserted"))
+This is a stringinserted
+>>> print('This is a string {}'.format("inserted"))
+This is a string inserted
+>>> 
+>>> 
+>>> print('Hi {} {} {}' .format("sowmya","javvadi")
+... clear
+  File "<stdin>", line 2
+    clear
+    ^
+SyntaxError: invalid syntax
+>>> print('Hi {} {} {}' .format("sowmya","javvadi","good morning"))
+Hi sowmya javvadi good morning
+>>> print('Hi {} {} {}' .format("sowmya","javvadi"))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: Replacement index 2 out of range for positional args tuple
+>>> 
+>>> 
+>>> print('The {} {} {}'.format('fox','brown','quick'))
+The fox brown quick
+>>> print('The {2} {1} {0}'.format('fox','brown','quick'))
+The quick brown fox
+>>> print('The {b} {q} {f}'.format(f='fox',b='brown',q='quick'))
+The brown quick fox
+>>> 
+>>> 
+>>> 
+>>> result=4/5
+>>> result
+0.8
+>>> result=100/777
+>>> result
+0.1287001287001287
+>>> print("the value is {}' .format(r=result))
+  File "<stdin>", line 1
+    print("the value is {}' .format(r=result))
+                                              ^
+SyntaxError: EOL while scanning string literal
+>>> print("the value is {}" .format(r=result))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: Replacement index 0 out of range for positional args tuple
+>>> print("the value is {}" .format(result))
+the value is 0.1287001287001287
+>>> print("the value is {r}" .format(r=result))
+the value is 0.1287001287001287
+>>> print("the value is {r:10.3f}" .format(r=result))
+the value is      0.129
+>>> print("the value is {r:3.3f}" .format(r=result))
+the value is 0.129
+>>> 
+>>> 
+>>> 
+>>> name='sowmya'
+>>> name
+'sowmya'
+>>> print("her name is {s}" .format(s='sowmya'))
+her name is sowmya
+>>> print(f"her name is {name}")
+her name is sowmya
+>>> 
+>>> 
+>>> name="sowmi"
+>>> age=23
+>>> print(f'{name} is {age} years old')
+sowmi is 23 years old
+>>> 
+>>> 
+>>> print("my name is " %'name')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: not all arguments converted during string formatting
+>>> print("my name is % " %'name')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: incomplete format
+>>> print("my name is %s " %'name')
+my name is name 
+>>> 
+>>> 
+>>> print(" %s name is %s and %s years of old" %('my','name','age'))
+ my name is name and age years of old
+>>> print(" %s name is %s and %s years of old" %('my','sowmi','23'))
+ my name is sowmi and 23 years of old
+>>> name,age='sowmi','23'
+>>> print(" %s name is %s and %s years of old" %('my','name','age'))
+ my name is name and age years of old
+>>> print(" %s name is %s and %s years of old" %('my',name,age))
+ my name is sowmi and 23 years of old
+>>> 
+  [Restored 14-Nov-2022 at 10:51:14 AM]
+Last login: Mon Nov 14 10:46:48 on console
+/Users/sowmyajavvadi/.zprofile:1: command not found: ^M
+Restored session: Sun Nov 13 02:27:50 IST 2022
+(base) sowmyajavvadi@LP1-AP-51899373 ~ % python
+Python 3.9.13 (main, Aug 25 2022, 18:29:29) 
+[Clang 12.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> mylist[1,2,3,4]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'mylist' is not defined
+>>> mylist=[1,2,3,4,5]
+>>> mylist
+[1, 2, 3, 4, 5]
+>>> mylist=['sowmya',100,23.4]
+>>> mylist
+['sowmya', 100, 23.4]
+>>> mylist[2]
+23.4
+>>> mylist[1:]
+[100, 23.4]
+>>> mylist[-1:]
+[23.4]
+>>> mylist[:-1]
+['sowmya', 100]
+>>> mylist[-1]
+23.4
+>>> anotherlist['javvadi', 2000,xyz]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'anotherlist' is not defined
+>>> anotherlist=['javvadi', 2000,xyz]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'xyz' is not defined
+>>> anotherlist=['javvadi', 2000,'xyz']
+>>> anotherlist
+['javvadi', 2000, 'xyz']
+>>> newlist=mylist+anotherlist
+>>> newlist
+['sowmya', 100, 23.4, 'javvadi', 2000, 'xyz']
+>>> newlist[2]=200
+>>> newlist
+['sowmya', 100, 200, 'javvadi', 2000, 'xyz']
+>>> 
+>>> newlist.append('hi good morning')
+>>> newlist
+['sowmya', 100, 200, 'javvadi', 2000, 'xyz', 'hi good morning']
+>>> newlist.pop()
+'hi good morning'
+>>> newlist.pop(2)
+200
+>>> poppeditem=newlist(4)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'list' object is not callable
+>>> poppeditem=newlist.pop(4)
+>>> poppeditem
+'xyz'
+>>> newlist
+['sowmya', 100, 'javvadi', 2000]
+>>> newlist['a','e','h','y','v']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: list indices must be integers or slices, not tuple
+>>> newlist=['a','e','h','y','v','c']
+>>> numlist[3,6,8,23,5,6,7,98]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'numlist' is not defined
+>>> newlist=['a','e','h','y','v','c']
+>>> numlist=[3,6,8,23,5,6,7,98]
+>>> newlist.sort()
+>>> newlist
+['a', 'c', 'e', 'h', 'v', 'y']
+>>> numlist.reverse()
+>>> numlist
+[98, 7, 6, 5, 23, 8, 6, 3]
+>>> numlist.sort()
+>>> numlist
+[3, 5, 6, 6, 7, 8, 23, 98]
+>>> dict={'key1':'value1', 'key2':'value2','key3':'value3'} 
+>>> dict
+{'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+>>> dict['key2']
+'value2'
+>>> prices={'mobile':23546,'laptop':45000,'charger':500}
+>>> prices[mobile]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'mobile' is not defined
+>>> prices['mobile']
+23546
+>>> d={'k1':'v1','k2':200,'k3':[2,4,5,6,8],'k4':{'insidekey':'insidevalue'}}
+>>> d['k3']
+[2, 4, 5, 6, 8]
+>>> d['k4']
+{'insidekey': 'insidevalue'}
+>>> d['k4']['insidekey']
+'insidevalue'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> Alp={'k1':['a','b','c'],'k2':['A','B','C','D']}
+>>> Alp['k1']
+['a', 'b', 'c']
+>>> list=Alp['k1']
+>>> list
+['a', 'b', 'c']
+>>> letter=list[1]
+>>> letter
+'b'
+>>> upper=letter.upper()
+>>> upper
+'B'
+>>> Alp['k2']
+['A', 'B', 'C', 'D']
+>>> letter=Alp['k2'][3]
+>>> letter
+'D'
+>>> lower=letter.lower()
+>>> lower
+'d'
+>>> 
+>>> 
+>>> Alp={'k1':['a','b','c'],'k2':['A','B','C','D']}
+>>> Alp['k3']=300
+>>> Alp
+{'k1': ['a', 'b', 'c'], 'k2': ['A', 'B', 'C', 'D'], 'k3': 300}
+>>> 
+>>> Alp['k1']=['s','o','w']
+>>> Alp
+{'k1': ['s', 'o', 'w'], 'k2': ['A', 'B', 'C', 'D'], 'k3': 300}
+>>> 
+>>> 
+>>> Alp.keys()
+dict_keys(['k1', 'k2', 'k3'])
+>>> Alp.values()
+dict_values([['s', 'o', 'w'], ['A', 'B', 'C', 'D'], 300])
+>>> Alp.items()
+dict_items([('k1', ['s', 'o', 'w']), ('k2', ['A', 'B', 'C', 'D']), ('k3', 300)])
+>>> 
+  [Restored 15-Nov-2022 at 11:32:14 AM]
+Last login: Tue Nov 15 11:31:51 on console
+/Users/sowmyajavvadi/.zprofile:1: command not found: ^M
+Restored session: Tue Nov 15 11:28:56 IST 2022
+(base) sowmyajavvadi@LP1-AP-51899373 ~ % python
+Python 3.9.13 (main, Aug 25 2022, 18:29:29) 
+[Clang 12.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> name='sowmya'
+>>> name[::-1]
+'aymwos'
+>>> t=(1,2,3)
+>>> t
+(1, 2, 3)
+>>> mylist=[1,2,3,4]
+>>> mylist
+[1, 2, 3, 4]
+>>> type(t)
+<class 'tuple'>
+>>> type(mylist)
+<class 'list'>
+>>> firstelement=t[1]
+>>> firstelement
+2
+>>> 
+>>> 
+>>> 
+>>> 
+>>> tuple=(91,"eww',78.89,'yooo')
+  File "<stdin>", line 1
+    tuple=(91,"eww',78.89,'yooo')
+                                 ^
+SyntaxError: EOL while scanning string literal
+>>> tuple=(91,"eww",78.89,'yooo')
+>>> tuple
+(91, 'eww', 78.89, 'yooo')
+>>> firstelement=tuple[0]
+>>> firstelement
+91
+>>>  
+>>> 
+>>> 
+>>> mylist=[1,4,56,767]
+>>> mylist
+[1, 4, 56, 767]
+>>> type(tuple)
+<class 'tuple'>
+>>> type(mylist)
+<class 'list'>
+>>> type(tuple[1])
+<class 'str'>
+>>> tuple=(91,"eww",78.89,'yooo')
+>>> tuple[:1]
+(91,)
+>>> tuple[1:]
+('eww', 78.89, 'yooo')
+>>> tuple[::-1]
+('yooo', 78.89, 'eww', 91)
+>>> 
+>>> 
+>>> 
+>>> tuple.count()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple.count() takes exactly one argument (0 given)
+>>> tuple.count('yooo')
+1
+>>> newtuple=(1,1,2,5,6,'a','a','b')
+>>> newtuple
+(1, 1, 2, 5, 6, 'a', 'a', 'b')
+>>> fulltuple=tuple+nwtuple
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nwtuple' is not defined
+>>> fulltuple=tuple+newtuple
+>>> fulltuple
+(91, 'eww', 78.89, 'yooo', 1, 1, 2, 5, 6, 'a', 'a', 'b')
+>>> 
+>>> 
+>>> newtuple.count(1)
+2
+>>> newtuple.index('a')
+5
+>>> 
+>>> 
+>>> mylist[0]='new'
+>>> mylist
+['new', 4, 56, 767]
+>>> 
+>>> tuple[0]='new'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> 
+>>> set=(1,2,3,4,4,4,)
+>>> set
+(1, 2, 3, 4, 4, 4)
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> set={1,2,3,44,35,32}
+>>> set
+{32, 1, 2, 3, 35, 44}
+>>> 
+>>> set2={'@',76,35}
+>>> set2
+{35, '@', 76}
+>>> 
+>>> 
+>>> set2.add(23)
+>>> set2
+{35, '@', 23, 76}
+>>> 
+>>> 
+>>> 
+>>> set={'p','a','r','a','l','l','e','l'}
+>>> set
+{'p', 'e', 'a', 'r', 'l'}
+>>> 
+>>> 
+>>> mylist=[1,2,22,2,3,11,11,11,23,3,3,3]
+>>> set(mylist)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not callable
+>>> mylist=[1,2,22,2,3,11,11,11,23,3,3,3]
+>>> set{mylist}
+  File "<stdin>", line 1
+    set{mylist}
+       ^
+SyntaxError: invalid syntax
+>>> 
+>>> 
+>>> 
+>>> mylist=[1,2,22,2,3,11,11,11,23,3,3,3]
+>>> set={mylist}
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unhashable type: 'list'
+>>> 
+>>> 
+>>> 
+>>> mylist=[1,2,22,2,3,11,11,11,23,3,3,3]
+>>> set(mylist)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not callable
+>>> mylist
+[1, 2, 22, 2, 3, 11, 11, 11, 23, 3, 3, 3]
+>>> set(mylist)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not callable
+>>> 
+>>> 
+>>> 
+>>> 1>2
+False
+>>> 1=2
+  File "<stdin>", line 1
+    1=2
+    ^
+SyntaxError: cannot assign to literal
+>>> 1==2
+False
+>>> 3<5
+True
+>>> 
